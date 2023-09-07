@@ -1,0 +1,92 @@
+body {
+    text-align: center;
+    margin: 0;
+    height: 100vh;
+}
+
+@font-face {
+    font-family: Spring;
+    src: url("Spring.ttf");
+}
+
+
+@font-face {
+    font-family: "Magenta Rose";
+    src: url("Magenta Rose.ttf");
+}
+
+h1, #count-el {
+    font-family: 'Spring';
+    font-size: 43px;
+    color: cadetblue;
+}
+
+h2, #save-el  {
+    font-family: "Magenta Rose";
+    color: rgb(214, 203, 44);
+}
+
+button {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    padding: 15px;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    font-size: 16px;
+    border-radius: 6px;
+    text-shadow: 0 0 1px black;
+}
+
+#inc-btn {
+    background-color: rgb(200, 115, 135)
+}
+
+#save-el {
+    margin-top: 30px;
+}
+
+#save-btn {
+    margin-top: 12px;
+    background-color: rgb(150, 176,163);
+}
+
+#title {
+    margin-top: 0;
+}
+
+#mid-section {
+    padding-top: 150px;
+    background-color: rgb(251 225 227 / 42%);
+    height: 100vh
+}
+
+.background-container {
+    background-size: auto;
+    background-position: 0 0;
+    height: 100vh; 
+    width: 100%;   
+    position: relative;
+}
+
+
+.background-left {
+    background-image: url('images/flowers.jpg');
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 33.33%; 
+    height: 100%;
+    margin-top: 0;
+}
+
+.background-right {
+    background-image: url('images/flowers.jpg');
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 33.33%; 
+    height: 100%;
+    margin-top: 0;
+}
